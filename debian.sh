@@ -16,7 +16,7 @@
 PATH=/usr/local/bin:$PATH
 DESC="Kippo SSH honeypot"
 NAME=kippo
-DAEMON_DIR=/var/software/$NAME
+DAEMON_DIR=/opt/$NAME
 DAEMON=$DAEMON_DIR/$NAME.tac
 DAEMON_ARGS=""
 TWISTD=/usr/local/bin/twistd
